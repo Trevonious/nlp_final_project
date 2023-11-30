@@ -2,7 +2,7 @@ import numpy as np
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 def analyzeReviewSentiment(data, verbose):
-  reviews = data[:,3]
+  reviews = data[:,7]
   sentiment = SentimentIntensityAnalyzer()
   sentiment_scores = []
 
