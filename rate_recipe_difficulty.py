@@ -18,13 +18,14 @@ verbose = args.verbose
 #################
 
 # 1. Read in data from relevent csv files
-# 2. Split data into training and testing sets
-#   - 80% training
-#   - 20% testing
-# 3. Preprocess data
+# 2. Preprocess data
+#   - Consolidate data
 #   - Tokenize
 #   - Remove stop words
-#   - Vectorize
+#   - Sentiment analysis
+# 3. Split data into training and testing sets
+#   - 80% training
+#   - 20% testing
 # 4. Train model
 # 5. Test model
 # 6. Output results
